@@ -258,7 +258,7 @@ export default function Academico() {
                         <li className="flex items-start">
                           <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Idealizaçã de uma plataforma de empregos verdes - VERDANA
+                            Idealização de uma plataforma de empregos verdes - VERDANA
                           </span>
                         </li>
                         <li className="flex items-start">
