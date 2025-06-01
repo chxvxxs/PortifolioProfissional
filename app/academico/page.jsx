@@ -491,7 +491,7 @@ export default function Academico() {
                     <Server size={28} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-1">Java - Nélio Alvesr</h3>
+                    <h3 className="text-lg font-semibold text-white mb-1">Java - Nélio Alves</h3>
                     <p className="text-white text-opacity-70 mb-2">Udemy</p>
                     <p className="text-white text-opacity-80 text-sm">
                       Certificação básica de Java com foco em Programação Orientada a Objetos.
