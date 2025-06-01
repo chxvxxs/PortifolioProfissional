@@ -380,7 +380,7 @@ export default function Academico() {
                     <h3 className="text-xl font-bold text-white mb-2">Residência em Robótica</h3>
                     <p className="text-white text-opacity-70 mb-4">
                       <Calendar size={16} className="inline mr-2" />
-                      Mar 2024 - Presente
+                      Mar 2025 - Presente
                     </p>
 
                     <p className="text-white text-opacity-80 mb-4">
