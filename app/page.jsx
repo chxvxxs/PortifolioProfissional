@@ -30,7 +30,7 @@ export default function Home() {
       <nav className="w-full py-4 px-6 md:px-12 flex justify-between items-center z-10">
         <div className="text-white font-bold text-2xl">
           <Link href="/">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Portifólio</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavessdev</span>
           </Link>
         </div>
 
@@ -106,13 +106,6 @@ export default function Home() {
           >
             Projetos
           </Link>
-          <Link
-            href="/jogo"
-            className="text-white font-medium py-2 px-4 hover:bg-white hover:bg-opacity-10 rounded"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Jogo
-          </Link>
         </div>
       </div>
 
@@ -121,7 +114,7 @@ export default function Home() {
           <div className="md:flex md:items-center">
             <div className="md:w-1/3 mb-6 md:mb-0 flex justify-center">
               <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white border-opacity-20 shadow-lg">
-                <img src="/Foto-Portifolio.JPG"></img>
+                <img src="/pfpportifolio.JPG"></img>
               </div>
             </div>
 
@@ -132,7 +125,7 @@ export default function Home() {
               </h1>
 
               <p className="text-xl text-white text-opacity-90 mb-6">
-                Desenvolvedor Full Stack apaixonado por criar soluções inovadoras e experiências digitais incríveis.
+                Desenvolvedor Back-End fascinado por tecnologia e em criar soluções inovadoras.
               </p>
 
               <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
@@ -142,7 +135,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/chavesdevcode/" target="blank"
+                  href="https://www.instagram.com/chavessdev/" target="blank"
                   className="bg-transparent border-2 border-white text-white font-medium py-3 px-6 rounded-full hover:bg-white hover:bg-opacity-10 transition duration-300"
                 >
                   Contato
@@ -156,7 +149,7 @@ export default function Home() {
                 <a href="https://github.com/chxvxxs" className="social-icon text-white text-2xl" target="blank">
                   <Github size={24} />
                 </a>
-                <a href="https://www.instagram.com/chavesdevcode/" className="social-icon text-white text-2xl" target="blank">
+                <a href="https://www.instagram.com/chavessdev/" className="social-icon text-white text-2xl" target="blank">
                   <Instagram size={24} />
                 </a>
               </div>
