@@ -119,13 +119,6 @@ export default function Sobre() {
           >
             Projetos
           </Link>
-          <Link
-            href="/jogo"
-            className="text-white font-medium py-2 px-4 hover:bg-white hover:bg-opacity-10 rounded"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Jogo
-          </Link>
         </div>
       </div>
 
@@ -138,47 +131,8 @@ export default function Sobre() {
               Sobre <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Mim</span>
             </h1>
             <p className="text-xl text-white text-opacity-90 max-w-3xl mx-auto">
-              Estudante fascinado por tecnologia, sempre em busca de aperfeiçoar meus conhecimentos e em novos desafios na área Tech.
+              Recifense, apaixonado por tecnolgia e sempre em busca de novos conhecimentos e desafios na área <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Tech</span>.
             </p>
-          </div>
-
-          {/* Seção de Apresentação */}
-          <div className="animate-section mb-12">
-            <div className="md:flex md:items-center md:gap-8">
-              <div className="md:w-1/3 mb-6 md:mb-0 flex justify-center">
-                <div className="w-64 h-64 rounded-2xl overflow-hidden border-4 border-white border-opacity-20 shadow-lg">
-                  <img src="/Foto-Portifolio.JPG"></img>
-                </div>
-              </div>
-
-              <div className="md:w-2/3 text-white">
-                <h2 className="text-2xl font-semibold mb-4">Quem sou eu?</h2>
-                <p className="text-lg text-white text-opacity-90 mb-4">
-                  Estudante dedicado e entusiasta da tecnologia, atualmente cursando
-                  <strong className="text-white"> Sistemas para Internet</strong> na Universidade Católica de
-                  Pernambuco. Minha jornada na área de tecnologia começou com o curso técnico em
-                  <strong className="text-white"> Análise e Desenvolvimento de Sistemas</strong> na Escola Técnica
-                  Estadual Porto Digital.
-                </p>
-                <p className="text-lg text-white text-opacity-90 mb-6">
-                  Atualmente, estou expandindo meus conhecimentos em
-                  <strong className="text-white"> Análise de Dados</strong> no programa Alura One, buscando me especializar em uma
-                  área que considero fundamental para o futuro da tecnologia.
-                </p>
-
-                <div className="flex justify-center md:justify-start space-x-6">
-                  <a href="https://www.linkedin.com/in/matheuschavesdev/" className="social-icon text-white text-2xl" target="blank">
-                    <Linkedin size={28} />
-                  </a>
-                  <a href="https://github.com/chxvxxs" className="social-icon text-white text-2xl" target="blank">
-                    <Github size={28} />
-                  </a>
-                  <a href="https://www.instagram.com/chavesdevcode/" className="social-icon text-white text-2xl" target="blank">
-                    <Instagram size={28} />
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Formação Acadêmica */}
@@ -197,7 +151,7 @@ export default function Sobre() {
                       <h3 className="text-xl font-semibold text-white">Sistemas para Internet</h3>
                       <span className="inline-block px-3 py-1 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400">
                         <Calendar size={14} className="inline mr-1" />
-                        Em andamento
+                        Cursando
                       </span>
                     </div>
                     <p className="text-white text-opacity-80 mb-2">Universidade Católica de Pernambuco (UNICAP)</p>
@@ -218,7 +172,7 @@ export default function Sobre() {
                   <div className="flex-1">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                       <h3 className="text-xl font-semibold text-white">
-                        Técnico em Análise e Desenvolvimento de Sistemas
+                        Técnico em Desenvolvimento de Sistemas
                       </h3>
                       <span className="inline-block px-3 py-1 bg-blue-500 bg-opacity-20 border border-blue-500 rounded-full text-sm text-blue-400">
                         <Award size={14} className="inline mr-1" />
@@ -242,15 +196,15 @@ export default function Sobre() {
                   </div>
                   <div className="flex-1">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                      <h3 className="text-xl font-semibold text-white">Análise de Dados</h3>
+                      <h3 className="text-xl font-semibold text-white">Desenvolvimento Back-End Java</h3>
                       <span className="inline-block px-3 py-1 bg-purple-500 bg-opacity-20 border border-purple-500 rounded-full text-sm text-purple-400">
                         <Calendar size={14} className="inline mr-1" />
-                        Cursando
+                        Formação em andamento
                       </span>
                     </div>
-                    <p className="text-white text-opacity-80 mb-2">Alura</p>
+                    <p className="text-white text-opacity-80 mb-2">Oracle | Alura</p>
                     <p className="text-white text-opacity-70">
-                      Especialização em análise de dados, estatística, Python, visualização de dados e machine learning.
+                      Especialização em desenvolvimento Back-End com a linguagem java, criação e consumo de APIS.
                     </p>
                   </div>
                 </div>
@@ -267,7 +221,7 @@ export default function Sobre() {
                 <div className="text-white text-4xl mb-4 flex justify-center">
                   <Code size={40} />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3 text-center">Desenvolvimento Web</h3>
+                <h3 className="text-xl font-semibold text-white mb-3 text-center">Web Stacks</h3>
                 <ul className="text-white text-opacity-80 space-y-2">
                   <li>• HTML5, CSS3, JavaScript</li>
                   <li>• React.js, Next.js</li>
@@ -278,14 +232,14 @@ export default function Sobre() {
 
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="text-white text-4xl mb-4 flex justify-center">
-                  <BarChart2 size={40} />
+                  <Code size={40} />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-3 text-center">Análise de Dados</h3>
+                <h3 className="text-xl font-semibold text-white mb-3 text-center">Back-End Stacks</h3>
                 <ul className="text-white text-opacity-80 space-y-2">
-                  <li>• Python, Pandas</li>
+                  <li>• Java</li>
                   <li>• SQL, PostgreSQL</li>
-                  <li>• Estatística Descritiva</li>
-                  <li>• Visualização de Dados</li>
+                  <li>• SpringBoot | Spring Framework</li>
+                  <li>• Python</li>
                 </ul>
               </div>
 
@@ -312,10 +266,10 @@ export default function Sobre() {
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <h3 className="text-xl font-semibold text-white mb-4">🎯 Objetivos Profissionais</h3>
                 <ul className="text-white text-opacity-80 space-y-3">
-                  <li>• Tornar-me um desenvolvedor full-stack completo</li>
-                  <li>• Especializar-me em análise de dados e BI</li>
-                  <li>• Tornar-me Analista de CyberSecurity</li>
-                  <li>• Desenvolver soluções inovadoras para problemas reais</li>
+                  <li>• Tornar-me um desenvolvedor Back-End</li>
+                  <li>• Especializar-me em Java e seus frameworks</li>
+                  <li>• Tornar-me Engenheiro de Software</li>
+                  <li>• Desenvolver tecnologias para um mundo melhor</li>
                 </ul>
               </div>
 
@@ -324,7 +278,7 @@ export default function Sobre() {
                 <ul className="text-white text-opacity-80 space-y-3">
                   <li>• Desenvolvimento Back-End</li>
                   <li>• Desenvolvimento de aplicações web modernas</li>
-                  <li>• Ciência de dados e visualização</li>
+                  <li>• Engenharia de Software</li>
                   <li>• Cyber Security</li>
                 </ul>
               </div>
