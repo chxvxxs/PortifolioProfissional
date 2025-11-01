@@ -155,9 +155,6 @@ export default function Projetos() {
           <Link href="/projetos" className="nav-link text-white font-medium border-b-2 border-white">
             Projetos
           </Link>
-          <Link href="/jogo" className="nav-link text-white font-medium">
-            Jogo
-          </Link>
         </div>
 
         <div className="md:hidden">

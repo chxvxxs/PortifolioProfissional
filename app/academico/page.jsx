@@ -63,9 +63,6 @@ export default function Academico() {
           <Link href="/projetos" className="nav-link text-white font-medium">
             Projetos
           </Link>
-          <Link href="/jogo" className="nav-link text-white font-medium">
-            Jogo
-          </Link>
         </div>
 
         <div className="md:hidden">

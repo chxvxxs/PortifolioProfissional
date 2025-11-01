@@ -63,9 +63,6 @@ export default function Profissional() {
           <Link href="/projetos" className="nav-link text-white font-medium">
             Projetos
           </Link>
-          <Link href="/jogo" className="nav-link text-white font-medium">
-            Jogo
-          </Link>
         </div>
 
         <div className="md:hidden">
@@ -122,13 +119,6 @@ export default function Profissional() {
             onClick={() => setMobileMenuOpen(false)}
           >
             Projetos
-          </Link>
-          <Link
-            href="/jogo"
-            className="text-white font-medium py-2 px-4 hover:bg-white hover:bg-opacity-10 rounded"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Jogo
           </Link>
         </div>
       </div>
