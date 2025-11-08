@@ -43,7 +43,7 @@ export default function Academico() {
       <nav className="w-full py-4 px-6 md:px-12 flex justify-between items-center z-10">
         <div className="text-white font-bold text-2xl">
           <Link href="/">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Portifólio</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavessdev</span>
           </Link>
         </div>
 
@@ -120,13 +120,6 @@ export default function Academico() {
           >
             Projetos
           </Link>
-          <Link
-            href="/jogo"
-            className="text-white font-medium py-2 px-4 hover:bg-white hover:bg-opacity-10 rounded"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Jogo
-          </Link>
         </div>
       </div>
 
@@ -162,9 +155,9 @@ export default function Academico() {
                 <div className="md:w-3/4">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <h3 className="text-2xl font-bold text-white">Sistemas para Internet</h3>
-                    <span className="inline-block px-4 py-2 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400 mt-2 md:mt-0">
+                    <span className="inline-block px-4 py-2 bg-blue-500 bg-opacity-20 border border-blue-500 rounded-full text-sm text-blue-400 mt-2 md:mt-0">
                       <Calendar size={14} className="inline mr-2" />
-                      3º Período
+                      4º Período
                     </span>
                   </div>
 
@@ -186,7 +179,79 @@ export default function Academico() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       <div className="flex items-center">
                         <ChevronRight size={18} className="text-blue-400 mr-2" />
-                        <span className="text-white text-opacity-80">Programação para Web</span>
+                        <span className="text-white text-opacity-80">Programação para dispositivos mobile</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Tópicos Avançados em Web 3.0</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Inteligência Artifical Aplicada</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Aplicações Orientada a Serviços</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Conceitos de Sistemas Operacionais</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Projeto Integrador 4</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 className="text-3xl font-bold text-white mb-8 flex items-center">
+              <GraduationCap className="mr-3" size={0} />
+            </h2>
+            <div className="service-card bg-black bg-opacity-50 p-8 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
+              <div className="flex flex-col md:flex-row md:items-start gap-6">
+                <div className="md:w-1/4 flex justify-center">
+                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-green-500 to-blue-300 flex items-center justify-center">
+                    <GraduationCap size={64} className="text-white" />
+                  </div>
+                </div>
+
+                <div className="md:w-3/4">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                    <h3 className="text-2xl font-bold text-white">Desenvolvimento de Sistemas</h3>
+                    <span className="inline-block px-4 py-2 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400 mt-2 md:mt-0">
+                      <Calendar size={14} className="inline mr-2" />
+                      Concluído
+                    </span>
+                  </div>
+
+                  <p className="text-lg text-white text-opacity-90 mb-4">
+                    Escola Técnica Estadual Porto Digital 
+                  </p>
+
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-white mb-3">Sobre o curso:</h4>
+                    <p className="text-white text-opacity-80 mb-4">
+                      Ensino médio integrado, focado no desenvolvimento de sistemas web, programação, gestão de projetos e moderna de aplicações
+                      para internet. O curso proporciona uma formação completa para atuar no mercado de desenvolvimento.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 className="text-lg font-semibold text-white mb-3">Principais disciplinas:</h4>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Lógica de Programação</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Desenvolvimento Web</span>
+                      </div>
+                      <div className="flex items-center">
+                        <ChevronRight size={18} className="text-blue-400 mr-2" />
+                        <span className="text-white text-opacity-80">Design de Interface</span>
                       </div>
                       <div className="flex items-center">
                         <ChevronRight size={18} className="text-blue-400 mr-2" />
@@ -194,26 +259,21 @@ export default function Academico() {
                       </div>
                       <div className="flex items-center">
                         <ChevronRight size={18} className="text-blue-400 mr-2" />
-                        <span className="text-white text-opacity-80">Programação Front-end</span>
+                        <span className="text-white text-opacity-80">Programação em Novas Tecnologias</span>
                       </div>
                       <div className="flex items-center">
                         <ChevronRight size={18} className="text-blue-400 mr-2" />
-                        <span className="text-white text-opacity-80">Rede de Computadores</span>
-                      </div>
-                      <div className="flex items-center">
-                        <ChevronRight size={18} className="text-blue-400 mr-2" />
-                        <span className="text-white text-opacity-80">Programação Orientada a Objetos</span>
-                      </div>
-                      <div className="flex items-center">
-                        <ChevronRight size={18} className="text-blue-400 mr-2" />
-                        <span className="text-white text-opacity-80">Arquitetura de Software</span>
+                        <span className="text-white text-opacity-80">Projeto Integrador </span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            
+
           </div>
+          
 
           {/* Residências de Software */}
           <div className="animate-section mb-16">
@@ -359,7 +419,76 @@ export default function Academico() {
                 </div>
               </div>
 
+
               {/* Residência 3 */}
+              <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/4">
+                    <div className="bg-gradient-to-br from-green-500 to-emerald-700 p-4 rounded-lg flex items-center justify-center">
+                      <CheckCircle size={48} className="text-white" />
+                    </div>
+                    <div className="mt-4 text-center">
+                      <span className="inline-block px-3 py-1 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400">
+                        Concluída
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="md:w-3/4">
+                    <h3 className="text-xl font-bold text-white mb-2">Residência em Robótica</h3>
+                    <p className="text-white text-opacity-70 mb-4">
+                      <Calendar size={16} className="inline mr-2" />
+                      Mar 2025 - Jul 2025
+                    </p>
+
+                    <p className="text-white text-opacity-80 mb-4">
+                      Focada em acolher crianças com Transtorno do Espectro Autista, utilizando o robô humanóide NAO.
+                      Realizamos a construção de uma API em python, visando automatizar o processo para facilitar a interação entre o NAO e o professor.
+                    </p>
+
+                    <div className="mb-4">
+                      <h4 className="text-lg font-semibold text-white mb-2">Principais realizações:</h4>
+                      <ul className="space-y-2">
+                        <li className="flex items-start">
+                          <Star size={18} className="text-yellow-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Integração com um Front-End, automatizando a interação entre professor e robô.
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <Star size={18} className="text-yellow-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Desenvolvimento de uma API própria que se conecta com uma I.A generativa.
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <Star size={18} className="text-yellow-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Utilização de linguagens e frameworks modernos.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Python
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Ubuntu
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Docker
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        API Rest
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Residência 4 */}
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/4">
@@ -374,15 +503,14 @@ export default function Academico() {
                   </div>
 
                   <div className="md:w-3/4">
-                    <h3 className="text-xl font-bold text-white mb-2">Residência em Robótica</h3>
+                    <h3 className="text-xl font-bold text-white mb-2">Bidweb Security IT | Cibersegurança</h3>
                     <p className="text-white text-opacity-70 mb-4">
                       <Calendar size={16} className="inline mr-2" />
-                      Mar 2025 - Presente
+                      Ago 2025 - Presente
                     </p>
 
                     <p className="text-white text-opacity-80 mb-4">
-                     Automatização de processos, utilizando de um chatbot para o professor ter o robô como um recurso aliado a ele em sala de aula.
-                      Construção de um site com front end integrado a API construída em python para o professor implementar funcionalidades por meio do chat.
+                     Desenvolvimento de solução tecnológica que visa criar uma comunidade, com site próprio e véiculos de comunicação, voltada para a área de Cibersegurança, com auxílio de mentores especialistas na área.
                     </p>
 
                     <div className="mb-4">
@@ -391,19 +519,19 @@ export default function Academico() {
                         <li className="flex items-start">
                           <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Desenvolvimento de uma API na última versão do python
+                            Desenvolvimento de uma aplicação web completa.
                           </span>
                         </li>
                         <li className="flex items-start">
                           <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Front-End Intuitivo e fácil de ser navegado
+                            Conteúdos a serem passados para os membros.
                           </span>
                         </li>
                         <li className="flex items-start">
                           <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Implementação nas escolas da rede municipal de ensino da Prefeitura da Cidade do Recife
+                            Implementação real de um MVP para testes e validação de projeto.
                           </span>
                         </li>
                       </ul>
@@ -414,21 +542,22 @@ export default function Academico() {
                         React
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Python
+                        Java
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Debian
+                        Arch Linux
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Coreographe
+                        Docker
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
-
+          
           {/* Cursos e Certificações */}
           <div className="animate-section">
             <h2 className="text-3xl font-bold text-white mb-8 flex items-center">
@@ -443,10 +572,10 @@ export default function Academico() {
                     <Code size={28} />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-1">Desenvolvimento Web Full Stack</h3>
-                    <p className="text-white text-opacity-70 mb-2">RocketSeat</p>
+                    <h3 className="text-lg font-semibold text-white mb-1">Desenvolvimento Back- End | Java</h3>
+                    <p className="text-white text-opacity-70 mb-2">Alura | Oracle</p>
                     <p className="text-white text-opacity-80 text-sm">
-                      Curso completo de desenvolvimento web com HTML, CSS, JavaScript, React, Node.js, TypeScript e MongoDB.
+                      Formação completa de desenvolvimento Back-End com Java, Spring Boot, Banco de dados Oracle + certificação Oracle.
                     </p>
                   </div>
                 </div>
@@ -491,7 +620,7 @@ export default function Academico() {
                     <h3 className="text-lg font-semibold text-white mb-1">Java - Nélio Alves</h3>
                     <p className="text-white text-opacity-70 mb-2">Udemy</p>
                     <p className="text-white text-opacity-80 text-sm">
-                      Certificação básica de Java com foco em Programação Orientada a Objetos.
+                      Curso básico de Java com foco em Programação Orientada a Objetos.
                     </p>
                   </div>
                 </div>

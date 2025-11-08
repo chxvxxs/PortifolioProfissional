@@ -114,7 +114,7 @@ export default function Home() {
           <div className="md:flex md:items-center">
             <div className="md:w-1/3 mb-6 md:mb-0 flex justify-center">
               <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-white border-opacity-20 shadow-lg">
-                <img src="/pfpportifolio.JPG"></img>
+                <img src="/killu.jpg"></img>
               </div>
             </div>
 
