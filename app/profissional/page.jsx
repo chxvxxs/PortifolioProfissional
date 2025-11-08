@@ -43,7 +43,7 @@ export default function Profissional() {
       <nav className="w-full py-4 px-6 md:px-12 flex justify-between items-center z-10">
         <div className="text-white font-bold text-2xl">
           <Link href="/">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">Portifólio</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavessdev</span>
           </Link>
         </div>
 
@@ -135,7 +135,7 @@ export default function Profissional() {
               </span>
             </h1>
             <p className="text-xl text-white text-opacity-90 max-w-3xl mx-auto">
-              Minha trajetória profissional e experiências práticas no mercado de trabalho.
+              Minha trajetória profissional e experiências práticas para o mercado de trabalho.
             </p>
           </div>
 
@@ -148,9 +148,8 @@ export default function Profissional() {
                 </div>
                 <h2 className="text-2xl font-bold text-white mb-4">Resumo Profissional</h2>
                 <p className="text-lg text-white text-opacity-90 max-w-3xl mx-auto">
-                  Estudante de Sistemas para Internet com experiência prática em desenvolvimento web e análise de dados
-                  através de residências de software e projetos acadêmicos. Busco oportunidades para aplicar meus
-                  conhecimentos e contribuir para projetos inovadores.
+                  Estudante de Sistemas para Internet e técnico em Desenvolvimento de Sistemas com experiência prática em desenvolvimento web e desenvolvimento back-end com linguagens e tecnologias modernas
+                  através de residências de software e projetos acadêmicos.
                 </p>
               </div>
 
@@ -160,11 +159,11 @@ export default function Profissional() {
                   <p className="text-white text-opacity-80">Residências Concluídas</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">10+</div>
+                  <div className="text-3xl font-bold text-green-400 mb-2">20+</div>
                   <p className="text-white text-opacity-80">Projetos Desenvolvidos</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">2+</div>
+                  <div className="text-3xl font-bold text-purple-400 mb-2">5</div>
                   <p className="text-white text-opacity-80">Anos de Estudo</p>
                 </div>
               </div>
@@ -183,12 +182,12 @@ export default function Profissional() {
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/4">
-                    <div className="bg-gradient-to-br from-blue-500 to-indigo-700 p-4 rounded-lg flex items-center justify-center">
+                    <div className="bg-gradient-to-br from-purple-500 to-pink-600 p-4 rounded-lg flex items-center justify-center">
                       <Clock size={48} className="text-white" />
                     </div>
                     <div className="mt-4 text-center">
-                      <span className="inline-block px-3 py-1 bg-blue-500 bg-opacity-20 border border-blue-500 rounded-full text-sm text-blue-400">
-                        Em andamento
+                      <span className="inline-block px-3 py-1 bg-purple-500 bg-opacity-20 border border-purple-500 rounded-full text-sm text-purple-400">
+                        Atual
                       </span>
                     </div>
                   </div>
