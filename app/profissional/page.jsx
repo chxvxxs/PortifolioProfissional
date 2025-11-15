@@ -178,7 +178,7 @@ export default function Profissional() {
             </h2>
 
             <div className="space-y-8">
-              {/* Estágio/Residência Atual */}
+              
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/4">
@@ -195,7 +195,168 @@ export default function Profissional() {
                   <div className="md:w-3/4">
                     <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                       <div>
-                        <h3 className="text-xl font-bold text-white mb-1">Desenvolvedor Back-End - Residência</h3>
+                        <h3 className="text-xl font-bold text-white mb-1">Jovem Aprendiz - Marketing </h3>
+                        <p className="text-white text-opacity-80 mb-2">Colégio de Santa Catarina</p>
+                        <div className="flex items-center text-white text-opacity-70 mb-2">
+                          <MapPin size={16} className="mr-2" />
+                          <span>Recife, PE</span>
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <p className="text-white text-opacity-70">
+                          <Calendar size={16} className="inline mr-2" />
+                          Fev 2025 - Presente
+                        </p>
+                      </div>
+                    </div>
+
+                    <p className="text-white text-opacity-80 mb-4">
+                      Criação de conteúdo para redes sociais e suporte para o setor administrativo.
+                    </p>
+
+                    <div className="mb-4">
+                      <h4 className="text-lg font-semibold text-white mb-3">Principais responsabilidades:</h4>
+                      <ul className="space-y-2">
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Captação e tratamento de fotos para as redes sociais
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Captação e edição de vídeos
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Design
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Filmaker, Fotográfo e Storymaker
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Photoshop
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Capcut
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Fotografia
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Audiovisual
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/4">
+                    <div className="bg-gradient-to-br from-blue-200 to-cyan-600 p-4 rounded-lg flex items-center justify-center">
+                      <Clock size={48} className="text-white" />
+                    </div>
+                    <div className="mt-4 text-center">
+                      <span className="inline-block px-3 py-1 bg-purple-500 bg-opacity-20 border border-purple-500 rounded-full text-sm text-purple-400">
+                        Atual
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="md:w-3/4">
+                    <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-bold text-white mb-1">Resiência em CyberSec </h3>
+                        <p className="text-white text-opacity-80 mb-2">BidWeb Security It</p>
+                        <div className="flex items-center text-white text-opacity-70 mb-2">
+                          <MapPin size={16} className="mr-2" />
+                          <span>Recife, PE</span>
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <p className="text-white text-opacity-70">
+                          <Calendar size={16} className="inline mr-2" />
+                          Ago 2025 - Presente
+                        </p>
+                      </div>
+                    </div>
+
+                    <p className="text-white text-opacity-80 mb-4">
+                      Desenvolvimento de solução tecnológica que visa criar uma comunidade, com site próprio e véiculos de comunicação, voltada para a área de Cibersegurança, com auxílio de mentores especialistas na área.
+                    </p>
+
+                    <div className="mb-4">
+                      <h4 className="text-lg font-semibold text-white mb-3">Principais responsabilidades:</h4>
+                      <ul className="space-y-2">
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Desenvolvimento de uma aplicação web completa
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Conteúdos e assitência completa aos membros da comunidade
+                          </span>
+                        </li>
+                        <li className="flex items-start">
+                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <span className="text-white text-opacity-80">
+                            Implementação real de um MVP para testes e validação do projeto
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2">
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Express
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Linux
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        React
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        Cyber Segurança
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Experiência Anterior */}
+              <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
+                <div className="flex flex-col md:flex-row gap-6">
+                  <div className="md:w-1/4">
+                    <div className="bg-gradient-to-br from-blue-200 to-cyan-700 p-4 rounded-lg flex items-center justify-center">
+                      <CheckCircle size={48} className="text-white" />
+                    </div>
+                    <div className="mt-4 text-center">
+                      <span className="inline-block px-3 py-1 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400">
+                        Concluído
+                      </span>
+                    </div>
+                  </div>
+
+                  <div className="md:w-3/4">
+                    <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-bold text-white mb-1">Residência em Robótica</h3>
                         <p className="text-white text-opacity-80 mb-2">CETEC</p>
                         <div className="flex items-center text-white text-opacity-70 mb-2">
                           <MapPin size={16} className="mr-2" />
@@ -205,41 +366,35 @@ export default function Profissional() {
                       <div className="text-right">
                         <p className="text-white text-opacity-70">
                           <Calendar size={16} className="inline mr-2" />
-                          Jan 2024 - Presente
+                          Ago 2024 - Nov 2024
                         </p>
                       </div>
                     </div>
 
                     <p className="text-white text-opacity-80 mb-4">
-                      Participação em residência de robótica focada na implementação de robótica no auxílio aos professores da rede municipal. Trabalho em
-                      equipe para criar soluções inovadoras utilizando React, Python e Debian.
+                      Foco em acolher crianças com Transtorno do Espectro Autista, utilizando o robô humanóide NAO.
+                      Realizamos a construção de uma API em Python, visando automatizar o processo para facilitar a interação entre o NAO e o professor.
                     </p>
 
                     <div className="mb-4">
-                      <h4 className="text-lg font-semibold text-white mb-3">Principais responsabilidades:</h4>
+                      <h4 className="text-lg font-semibold text-white mb-3">Principais realizações:</h4>
                       <ul className="space-y-2">
                         <li className="flex items-start">
-                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Desenvolvimento de interfaces responsivas e intuitivas
+                            Criação de API em Python
                           </span>
                         </li>
                         <li className="flex items-start">
-                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Integração com APIs REST e serviços de backend
+                            Integração do robô com inteligência artificial
                           </span>
                         </li>
                         <li className="flex items-start">
-                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
+                          <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                           <span className="text-white text-opacity-80">
-                            Implementação de funcionalidades offline e sincronização de dados
-                          </span>
-                        </li>
-                        <li className="flex items-start">
-                          <ChevronRight size={18} className="text-blue-400 mr-2 mt-1" />
-                          <span className="text-white text-opacity-80">
-                            Participação em reuniões de planejamento e revisão de código
+                            Análise de dados de educação para crianças com Transtorno do Espectro Autista
                           </span>
                         </li>
                       </ul>
@@ -247,21 +402,22 @@ export default function Profissional() {
 
                     <div className="flex flex-wrap gap-2">
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        React
-                      </span>
-                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
                         Python
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Debian
+                        React
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Coreographe
+                        NAOV6
+                      </span>
+                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
+                        I.A Generativa
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
+
 
               {/* Experiência Anterior */}
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
@@ -478,7 +634,7 @@ export default function Profissional() {
                   </li>
                   <li className="flex items-center">
                     <ChevronRight size={18} className="text-blue-400 mr-2" />
-                    <span className="text-white text-opacity-80">Metodologias ágeis</span>
+                    <span className="text-white text-opacity-80">Java | Spring</span>
                   </li>
                   <li className="flex items-center">
                     <ChevronRight size={18} className="text-blue-400 mr-2" />
@@ -504,7 +660,7 @@ export default function Profissional() {
                     <li className="flex items-start">
                       <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                       <span className="text-white text-opacity-80">
-                        Conseguir um estágio em desenvolvimento de software
+                        Atuar como um Desenvolvedor Jr.
                       </span>
                     </li>
                     <li className="flex items-start">
@@ -513,7 +669,7 @@ export default function Profissional() {
                     </li>
                     <li className="flex items-start">
                       <Star size={18} className="text-yellow-400 mr-2 mt-1" />
-                      <span className="text-white text-opacity-80">Obter certificações AWS e Azure</span>
+                      <span className="text-white text-opacity-80">Aumentar minha experiência prática com mais projetos reais</span>
                     </li>
                   </ul>
                 </div>
@@ -524,12 +680,12 @@ export default function Profissional() {
                     <li className="flex items-start">
                       <Star size={18} className="text-yellow-400 mr-2 mt-1" />
                       <span className="text-white text-opacity-80">
-                        Tornar-me um Analista de CyberSecurity Sênior
+                        Tornar-me um Engenheiro de Software Sênior
                       </span>
                     </li>
                     <li className="flex items-start">
                       <Star size={18} className="text-yellow-400 mr-2 mt-1" />
-                      <span className="text-white text-opacity-80">Trabalhar em alguma empresa renomada e fora do Brasil</span>
+                      <span className="text-white text-opacity-80">Trabalhar para uma empresa com valores que colaboram para um mundo melhor</span>
                     </li>
                     <li className="flex items-start">
                       <Star size={18} className="text-yellow-400 mr-2 mt-1" />
