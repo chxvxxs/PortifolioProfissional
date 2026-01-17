@@ -30,7 +30,7 @@ export default function Home() {
       <nav className="w-full py-4 px-6 md:px-12 flex justify-between items-center z-10">
         <div className="text-white font-bold text-2xl">
           <Link href="/">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavessdev</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavesslife</span>
           </Link>
         </div>
 
@@ -125,22 +125,8 @@ export default function Home() {
               </h1>
 
               <p className="text-xl text-white text-opacity-90 mb-6">
-                Desenvolvedor Back-End fascinado por tecnologia e em criar soluções inovadoras.
+                Desenvolvedor Back-End, entusiasta de Ciber Segurança fascinado por tecnologia e em criar soluções inovadoras.
               </p>
-
-              <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
-                <a href="/Matheus.pdf" className="btn-primary text-white font-medium py-3 px-6 rounded-full flex items-center" target="blank">
-                  <Download className="w-5 h-5 mr-2" />
-                  Baixar CV
-                </a>
-
-                <a
-                  href="https://www.instagram.com/chavessdev/" target="blank"
-                  className="bg-transparent border-2 border-white text-white font-medium py-3 px-6 rounded-full hover:bg-white hover:bg-opacity-10 transition duration-300"
-                >
-                  Contato
-                </a>
-              </div>
 
               <div className="flex justify-center md:justify-start space-x-6">
                 <a href="https://www.linkedin.com/in/matheuschavesdev/" className="social-icon text-white text-2xl" target="blank">
@@ -149,7 +135,7 @@ export default function Home() {
                 <a href="https://github.com/chxvxxs" className="social-icon text-white text-2xl" target="blank">
                   <Github size={24} />
                 </a>
-                <a href="https://www.instagram.com/chavessdev/" className="social-icon text-white text-2xl" target="blank">
+                <a href="https://www.instagram.com/chavesslife/" className="social-icon text-white text-2xl" target="blank">
                   <Instagram size={24} />
                 </a>
               </div>

@@ -7,7 +7,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: "@chavessdev",
+  title: "@chavesslife",
   description: "Portfólio profissional",
 }
 

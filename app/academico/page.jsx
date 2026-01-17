@@ -43,7 +43,7 @@ export default function Academico() {
       <nav className="w-full py-4 px-6 md:px-12 flex justify-between items-center z-10">
         <div className="text-white font-bold text-2xl">
           <Link href="/">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavessdev</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavesslife</span>
           </Link>
         </div>
 
@@ -157,7 +157,7 @@ export default function Academico() {
                     <h3 className="text-2xl font-bold text-white">Sistemas para Internet</h3>
                     <span className="inline-block px-4 py-2 bg-blue-500 bg-opacity-20 border border-blue-500 rounded-full text-sm text-blue-400 mt-2 md:mt-0">
                       <Calendar size={14} className="inline mr-2" />
-                      4º Período
+                      5º Período
                     </span>
                   </div>
 
@@ -168,7 +168,7 @@ export default function Academico() {
                   <div className="mb-6">
                     <h4 className="text-lg font-semibold text-white mb-3">Sobre o curso:</h4>
                     <p className="text-white text-opacity-80 mb-4">
-                      Graduação focada no desenvolvimento de sistemas web, programação, banco de dados e tecnologias
+                      Graduação, nível tecnólogo, focada no desenvolvimento de sistemas web, programação, banco de dados e tecnologias
                       para internet. O curso proporciona uma formação completa para atuar no desenvolvimento de soluções
                       digitais modernas.
                     </p>
@@ -492,12 +492,12 @@ export default function Academico() {
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/4">
-                    <div className="bg-gradient-to-br from-blue-500 to-indigo-700 p-4 rounded-lg flex items-center justify-center">
-                      <Clock size={48} className="text-white" />
+                    <div className="bg-gradient-to-br from-green-500 to-green-700 p-4 rounded-lg flex items-center justify-center">
+                      <CheckCircle size={48} className="text-white" />
                     </div>
                     <div className="mt-4 text-center">
-                      <span className="inline-block px-3 py-1 bg-blue-500 bg-opacity-20 border border-blue-500 rounded-full text-sm text-blue-400">
-                        Em andamento
+                      <span className="inline-block px-3 py-1 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400">
+                        Concluída
                       </span>
                     </div>
                   </div>
@@ -539,17 +539,15 @@ export default function Academico() {
 
                     <div className="flex flex-wrap gap-2">
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        React
+                        React | Next
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Java
+                        Express | Node
                       </span>
                       <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Arch Linux
+                        Kali Linux
                       </span>
-                      <span className="px-3 py-1 bg-blue-500 bg-opacity-20 rounded-full text-sm text-blue-400">
-                        Docker
-                      </span>
+                      
                     </div>
                   </div>
                 </div>
@@ -584,28 +582,13 @@ export default function Academico() {
               <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="flex items-start gap-4">
                   <div className="text-blue-400 text-3xl">
-                    <BarChart2 size={28} />
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-white mb-1">Análise de Dados com Python</h3>
-                    <p className="text-white text-opacity-70 mb-2">Alura</p>
-                    <p className="text-white text-opacity-80 text-sm">
-                      Formação em Ciência de dados com Python, Pandas, NumPy e visualização de dados.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
-                <div className="flex items-start gap-4">
-                  <div className="text-blue-400 text-3xl">
                     <BookOpen size={28} />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Prazer, Arte!</h3>
                     <p className="text-white text-opacity-70 mb-2">Instituto Memaker</p>
                     <p className="text-white text-opacity-80 text-sm">
-                      Curso voltado para o desenvolvimento das soft skilss.
+                      Curso voltado para o desenvolvimento artístico e de soft skill.
                     </p>
                   </div>
                 </div>

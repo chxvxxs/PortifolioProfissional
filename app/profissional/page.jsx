@@ -43,7 +43,7 @@ export default function Profissional() {
       <nav className="w-full py-4 px-6 md:px-12 flex justify-between items-center z-10">
         <div className="text-white font-bold text-2xl">
           <Link href="/">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavessdev</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400">@chavesslife</span>
           </Link>
         </div>
 
@@ -265,12 +265,12 @@ export default function Profissional() {
             <div className="service-card bg-black bg-opacity-50 p-6 rounded-lg backdrop-blur-sm border border-white border-opacity-20">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="md:w-1/4">
-                    <div className="bg-gradient-to-br from-blue-200 to-cyan-600 p-4 rounded-lg flex items-center justify-center">
-                      <Clock size={48} className="text-white" />
+                    <div className="bg-gradient-to-br from-blue-500 to-indigo-800 p-4 rounded-lg flex items-center justify-center">
+                      <CheckCircle size={48} className="text-white" />
                     </div>
                     <div className="mt-4 text-center">
-                      <span className="inline-block px-3 py-1 bg-purple-500 bg-opacity-20 border border-purple-500 rounded-full text-sm text-purple-400">
-                        Atual
+                      <span className="inline-block px-3 py-1 bg-green-500 bg-opacity-20 border border-green-500 rounded-full text-sm text-green-400">
+                        Concluído
                       </span>
                     </div>
                   </div>
@@ -634,7 +634,7 @@ export default function Profissional() {
                   </li>
                   <li className="flex items-center">
                     <ChevronRight size={18} className="text-blue-400 mr-2" />
-                    <span className="text-white text-opacity-80">Java | Spring</span>
+                    <span className="text-white text-opacity-80">Java | Spring Framework</span>
                   </li>
                   <li className="flex items-center">
                     <ChevronRight size={18} className="text-blue-400 mr-2" />

@@ -415,7 +415,7 @@ export default function Projetos() {
                 projeto em mente, entre em contato!
               </p>
               <a
-                href="https://www.instagram.com/chavessdev/"
+                href="https://www.instagram.com/chavesslife/"
                 target="blank"
                 className="inline-flex items-center bg-white text-black font-medium py-3 px-6 rounded-full hover:bg-opacity-90 transition-colors"
               >
